@@ -1,0 +1,34 @@
+/* main behind things */
+html { 
+    overflow-x:hidden;
+}
+
+body { 
+    background-color:pink;
+}
+
+
+/* styling the content */
+.container {
+    border:2px solid black;
+    border-radius:30px;
+    object-position: center;
+    color:white;
+    margin-top:100px;
+}
+
+/* text */
+ 
+.headertitlething {
+    font-size:40px;
+}
+
+.underheaderthing {
+    font-size:20px;
+}
+
+/* submit button */
+
+.btn {
+    background-color:rgb(255, 119, 142);
+}
