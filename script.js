@@ -65,11 +65,11 @@ function genFullName() {
     const favoriteAnimal=document.getElementById('favoriteAnimal').value.trim();
 
     //run name generating functions and store in new variables
-    const prefix=genPrefix(firstName);
+    const prefix=genPreFix(firstName);
     const newFirstName=genFirstName(firstName);
     const middleName=genMiddleName(roadType, favoriteColor);
     const newLastName=genLastName(lastName);
-    const suffix=genSuffix(favoriteAnimal);
+    const suffix=getSuffix(favoriteAnimal);
 
     //capitalize name variables when needed
 
@@ -83,7 +83,7 @@ function genFullName() {
 
     //display new name
 
-    document.getElementById('result').textContent=fullName;
+    document.getElementById("result").textContent=fullName;
 }
 
 //capitalization function
