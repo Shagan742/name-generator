@@ -36,15 +36,14 @@ function genMiddleName(roadType, favoriteColor) {
 // generate last name
 
 function genLastName(lastName) {
-    const lastLetter = lastName.charAt(lastName.length-1) {
+    const lastLetter = lastName.charAt(lastName.length-1); 
         if(lastLetter==='a') {
             return 'idk';
-        }else if (lastLetter==='b') {
+        } else if (lastLetter==='b') {
             return 'sifsdkfjsdfh';
         } else {
             return 'dnkjkdjklsj';
         }
-    }
 }
 
 
@@ -80,8 +79,11 @@ function genFullName() {
     const capitalizedLastName = capitalize(newLastName);
 
     //combine all name variables into a full new name
+    const fullName=`${capitalizedPrefix} ${capitalizedFirstName} ${capitalizedMiddleName} ${capitalizedLastName} ${suffix}`;
 
     //display new name
+
+    document.getElementById('result').textContent=fullName;
 }
 
 //capitalization function

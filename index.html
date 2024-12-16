@@ -38,31 +38,31 @@
                     <!--get first name-->
                     <div class="mb-3">
                         <label for="firstname" class="form-label">First name</label>
-                        <input type="text" class="form-control" id="firstname" placeholder="Enter your first name">
+                        <input type="text" class="form-control" id="firstname" placeholder="Enter your first name" required>
                     </div>
 
                     <!--get last name-->
                     <div class="mb-3">
                         <label for="lastname" class="form-label">Last name</label>
-                        <input type="text" class="form-control" id="lastname" placeholder="Enter your last name">
+                        <input type="text" class="form-control" id="lastname" placeholder="Enter your last name" required>
                     </div>
 
                     <!--get fav color-->
                     <div class="mb-3">
                         <label for="favoritecolor" class="form-label">Favorite color</label>
-                        <input type="text" class="form-control" id="favoritecolor" placeholder="Enter your favorite color">
+                        <input type="text" class="form-control" id="favoritecolor" placeholder="Enter your favorite color" required>
                     </div>
 
                     <!--get fav animal-->
                     <div class="mb-3">
                         <label for="favoriteanimal" class="form-label">Favorite animal</label>
-                        <input type="text" class="form-control" id="favoriteanimal" placeholder="Enter your favorite animal">
+                        <input type="text" class="form-control" id="favoriteanimal" placeholder="Enter your favorite animal" required>
                     </div>
 
                     <!--get roadType-->
                     <div class="mb-3">
                         <label for="roadType" class="form-label">Choose road type</label>
-                        <select id="roadType" class="form-select">
+                        <select id="roadType" class="form-select" required>
                             <option selected>Select Road Type</option>
                             <option value="road">Road</option>
                             <option value="street">Street</option>
@@ -75,7 +75,7 @@
 
                 <div class="col-2 mx-3">
                  <!--submit button-->
-                 <button type="submit" class="btn" onclick="genFullName()">Generate Now!</button>
+                 <div type="submit" class="btn" onclick="genFullName()">Generate Now!</div>
                 </div>
                  <!--generated name output-->
                  <div class="result" id="result"></div>
