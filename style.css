@@ -32,15 +32,18 @@ body {
 
 }
 
-.mb-3 {
+.form-label {
     font-size:22px;
     text-shadow: 1px 1px black;
-    text-align:center;
+
 }
 
-form {
-    width:900px;
-    margin:0 auto;
+
+
+#result { 
+    font-size:30px;
+    text-shadow: 1px 1px black;
+
 }
 
 /* submit button */
