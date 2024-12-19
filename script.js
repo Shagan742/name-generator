@@ -35,56 +35,64 @@ function genFirstName(firstName) {
             return 'Greg';
 
         case 'h':
-            return '';
+            return 'May';
 
         case 'i':
-            return '';
+            return 'April';
 
         case 'j':
-            return '';
+            return 'Stella';
 
         case 'k':
-            return '';
+            return 'Techna';
 
         case 'l':
-            return '';
+            return 'Kenzie';
 
         case 'm':
-            return '';
+            return 'Flora';
 
         case 'n':
-            return '';    
+            return 'Bloom';    
 
         case 'o':
             return 'Rachel';
 
         case 'p':
-            return '';
+            return 'Pot';
     
         case 'q':
-            return '';
+            return 'Zoey';
     
         case 'r':
-            return '';
+            return 'Jack';
     
         case 's':
-            return '';
+            return 'Anthony';
     
         case 't':
-            return '';
+            return 'Wes';
     
         case 'u':
-            return '';
+            return 'Candace';
     
         case 'v':
-            return '';    
+            return 'Kia';    
     
         case 'w':
             return 'Hank';
+        
+        case 'x':
+            return 'Frank';
 
+        case 'y':
+            return 'Giovanna';
+
+        case 'z':
+            return 'Leah';
 
         default:
-            return alert;
+            return 'TypeYourNameBro';
     }
 }
 
@@ -107,11 +115,13 @@ function genLastName(lastName) {
 
     const lastLetter = lastName.charAt(lastName.length - 1);
     if (lastLetter === 'a') {
-        return 'idk';
+        return 'Long';
     } else if (lastLetter === 'b') {
-        return 'sifsdkfjsdfh';
+        return 'Pulaski';
+    } else if (lastLetter === 'c') {
+        return 'Singh';
     } else {
-        return 'dnkjkdjklsj';
+        return 'Kaur';
     }
 }
 
