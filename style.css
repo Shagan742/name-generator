@@ -43,18 +43,18 @@ body {
 #result { 
     font-size:30px;
     text-shadow: 1px 1px black;
-
+    background-color:rgb(111, 211, 250);
 }
 
 /* submit button */
 
 .btn {
-    background-color:rgb(255, 119, 142);
+    background-color:rgb(119, 151, 255);
     color:white;
     font-size:20px;
 }
 
 .btn:hover {
     color:black;
-    background-color: white;
+    background-color: rgb(94, 215, 245);
 }
