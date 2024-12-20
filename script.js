@@ -92,7 +92,7 @@ function genFirstName(firstName) {
             return 'Leah';
 
         default:
-            return 'TypeYourNameBro';
+            return '...TypeYourNameBro...';
     }
 }
 
@@ -123,8 +123,50 @@ function genLastName(lastName) {
         return 'Pulaski';
     } else if (lastLetter === 'd') {
         return 'Singh';
-    } else {
+    } else if (lastLetter==='e'){
         return 'Kaur';
+    } else if (lastLetter==='f') {
+        return 'Jones';
+    } else if (lastLetter==='g') {
+        return 'Blue';
+    } else if (lastLetter==='h') {
+        return 'Swift';
+    } else if (lastLetter==='i') {
+        return 'Wisniewski';
+    } else if (lastLetter==='j') {
+        return 'Russell';
+    } else if (lastLetter==='k') {
+        return 'Hoover';
+    } else if (lastLetter==='l') {
+        return 'Steiner';
+    } else if (lastLetter==='m') {
+        return 'Baudelaire';
+    } else if (lastLetter==='n') {
+        return 'Quagmire';
+    } else if (lastLetter==='o') {
+        return 'Patel';
+    } else if (lastLetter==='p') {
+        return 'Rodriguez';
+    } else if (lastLetter==='q') {
+        return 'Cortez';
+    } else if (lastLetter==='r') {
+        return 'Rizov';
+    } else if (lastLetter==='s') {
+        return 'Yang';
+    } else if (lastLetter==='t') {
+        return 'Tudor';
+    } else if (lastLetter==='u') {
+        return 'Douglass';
+    } else if (lastLetter==='v') {
+        return 'Columbus';
+    } else if (lastLetter==='w') {
+        return 'Snow';
+    } else if (lastLetter==='x') {
+        return 'Table';
+    } else if (lastLetter==='y') {
+        return 'Wall';
+    } else {
+        return '...WhatsYourNameBro...';
     }
 }
 

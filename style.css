@@ -41,9 +41,15 @@ body {
 
 
 #result { 
-    font-size:30px;
-    text-shadow: 1px 1px black;
+    font-size:40px;
+    text-shadow: 2px 2px 3px black;
     background-color:rgb(111, 211, 250);
+    border-radius: 7px;
+    font-family: "Playwrite AU VIC", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  color:darkblue;
 }
 
 /* submit button */
