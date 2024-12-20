@@ -114,27 +114,35 @@ function genLastName(lastName) {
 
 
     const lastLetter = lastName.charAt(lastName.length - 1);
-<<<<<<< HEAD
     if (lastLetter === 'a' || lastLetter === 'z') {
-        return 'idk';
-=======
-    if (lastLetter === 'a') {
+        return 'Bratz';
+    }
+    if (lastLetter === 'b') {
         return 'Long';
->>>>>>> 87d742411433ced4b812e9e051be01c60dad6f36
-    } else if (lastLetter === 'b') {
-        return 'Pulaski';
     } else if (lastLetter === 'c') {
+        return 'Pulaski';
+    } else if (lastLetter === 'd') {
         return 'Singh';
     } else {
         return 'Kaur';
     }
 }
 
-
 //generate suffix
 
 function getSuffix(favoriteAnimal) {
-    return `of the ${favoriteAnimal} clan`;
+
+    const lastLetterFavoriteAnimal = favoriteAnimal.charAt(favoriteAnimal.length -1);
+    const lastLetterFavoriteAnimal2 = favoriteAnimal.charAt(favoriteAnimal.length - 2);
+
+    if (lastLetterFavoriteAnimal==='n' && lastLetterFavoriteAnimal2==='o') {
+       return `of the ${favoriteAnimal} clan`; 
+    } else if (lastLetterFavoriteAnimal==='e' && lastLetterFavoriteAnimal2==='n') {
+        return `of the ${favoriteAnimal} kingdom`;
+    } else {
+        return `of the ${favoriteAnimal} tribe`;
+    }
+    
 }
 
 
