@@ -106,7 +106,7 @@ function genLastName(lastName) {
 
 
     const lastLetter = lastName.charAt(lastName.length - 1);
-    if (lastLetter === 'a') {
+    if (lastLetter === 'a' || lastLetter === 'z') {
         return 'idk';
     } else if (lastLetter === 'b') {
         return 'sifsdkfjsdfh';
